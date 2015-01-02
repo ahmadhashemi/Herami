@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0E135771A4E278A000666E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E135761A4E278A000666E7 /* main.m */; };
+		E0E1357A1A4E278A000666E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E135791A4E278A000666E7 /* AppDelegate.m */; };
+		E0E1357D1A4E278A000666E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E1357C1A4E278A000666E7 /* ViewController.m */; };
+		E0E135801A4E278A000666E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E1357E1A4E278A000666E7 /* Main.storyboard */; };
+		E0E135821A4E278A000666E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E135811A4E278A000666E7 /* Images.xcassets */; };
+		E0E135851A4E278A000666E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E135831A4E278A000666E7 /* LaunchScreen.xib */; };
+		E0E135911A4E278A000666E7 /* HeramiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E135901A4E278A000666E7 /* HeramiTests.m */; };
+		E0E135B11A4E46C5000666E7 /* B Nazanin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0E135B01A4E46C5000666E7 /* B Nazanin.ttf */; };
+		E0E135B41A4E9FF2000666E7 /* Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E135B31A4E9FF2000666E7 /* Detail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0E1358B1A4E278A000666E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E135691A4E278A000666E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E135701A4E278A000666E7;
+			remoteInfo = Herami;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0E135711A4E278A000666E7 /* Herami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Herami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E135751A4E278A000666E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E135761A4E278A000666E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0E135781A4E278A000666E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0E135791A4E278A000666E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0E1357B1A4E278A000666E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0E1357C1A4E278A000666E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0E1357F1A4E278A000666E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0E135811A4E278A000666E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E0E135841A4E278A000666E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E0E1358A1A4E278A000666E7 /* HeramiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeramiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E1358F1A4E278A000666E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E135901A4E278A000666E7 /* HeramiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeramiTests.m; sourceTree = "<group>"; };
+		E0E135B01A4E46C5000666E7 /* B Nazanin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "B Nazanin.ttf"; sourceTree = "<group>"; };
+		E0E135B21A4E9FF2000666E7 /* Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail.h; sourceTree = "<group>"; };
+		E0E135B31A4E9FF2000666E7 /* Detail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E1356E1A4E278A000666E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E135871A4E278A000666E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0E135681A4E278A000666E7 = {
+			isa = PBXGroup;
+			children = (
+				E0E135731A4E278A000666E7 /* Herami */,
+				E0E1358D1A4E278A000666E7 /* HeramiTests */,
+				E0E135721A4E278A000666E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E135721A4E278A000666E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E135711A4E278A000666E7 /* Herami.app */,
+				E0E1358A1A4E278A000666E7 /* HeramiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E135731A4E278A000666E7 /* Herami */ = {
+			isa = PBXGroup;
+			children = (
+				E0E135781A4E278A000666E7 /* AppDelegate.h */,
+				E0E135791A4E278A000666E7 /* AppDelegate.m */,
+				E0E1357B1A4E278A000666E7 /* ViewController.h */,
+				E0E1357C1A4E278A000666E7 /* ViewController.m */,
+				E0E1357E1A4E278A000666E7 /* Main.storyboard */,
+				E0E135B21A4E9FF2000666E7 /* Detail.h */,
+				E0E135B31A4E9FF2000666E7 /* Detail.m */,
+				E0E135811A4E278A000666E7 /* Images.xcassets */,
+				E0E135831A4E278A000666E7 /* LaunchScreen.xib */,
+				E0E135741A4E278A000666E7 /* Supporting Files */,
+			);
+			path = Herami;
+			sourceTree = "<group>";
+		};
+		E0E135741A4E278A000666E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E135751A4E278A000666E7 /* Info.plist */,
+				E0E135B01A4E46C5000666E7 /* B Nazanin.ttf */,
+				E0E135761A4E278A000666E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0E1358D1A4E278A000666E7 /* HeramiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E135901A4E278A000666E7 /* HeramiTests.m */,
+				E0E1358E1A4E278A000666E7 /* Supporting Files */,
+			);
+			path = HeramiTests;
+			sourceTree = "<group>";
+		};
+		E0E1358E1A4E278A000666E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E1358F1A4E278A000666E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E135701A4E278A000666E7 /* Herami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E135941A4E278A000666E7 /* Build configuration list for PBXNativeTarget "Herami" */;
+			buildPhases = (
+				E0E1356D1A4E278A000666E7 /* Sources */,
+				E0E1356E1A4E278A000666E7 /* Frameworks */,
+				E0E1356F1A4E278A000666E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Herami;
+			productName = Herami;
+			productReference = E0E135711A4E278A000666E7 /* Herami.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0E135891A4E278A000666E7 /* HeramiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E135971A4E278A000666E7 /* Build configuration list for PBXNativeTarget "HeramiTests" */;
+			buildPhases = (
+				E0E135861A4E278A000666E7 /* Sources */,
+				E0E135871A4E278A000666E7 /* Frameworks */,
+				E0E135881A4E278A000666E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E1358C1A4E278A000666E7 /* PBXTargetDependency */,
+			);
+			name = HeramiTests;
+			productName = HeramiTests;
+			productReference = E0E1358A1A4E278A000666E7 /* HeramiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E135691A4E278A000666E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Ahmad;
+				TargetAttributes = {
+					E0E135701A4E278A000666E7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E0E135891A4E278A000666E7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E0E135701A4E278A000666E7;
+					};
+				};
+			};
+			buildConfigurationList = E0E1356C1A4E278A000666E7 /* Build configuration list for PBXProject "Herami" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0E135681A4E278A000666E7;
+			productRefGroup = E0E135721A4E278A000666E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E135701A4E278A000666E7 /* Herami */,
+				E0E135891A4E278A000666E7 /* HeramiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E1356F1A4E278A000666E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E135801A4E278A000666E7 /* Main.storyboard in Resources */,
+				E0E135851A4E278A000666E7 /* LaunchScreen.xib in Resources */,
+				E0E135B11A4E46C5000666E7 /* B Nazanin.ttf in Resources */,
+				E0E135821A4E278A000666E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E135881A4E278A000666E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E1356D1A4E278A000666E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E1357D1A4E278A000666E7 /* ViewController.m in Sources */,
+				E0E1357A1A4E278A000666E7 /* AppDelegate.m in Sources */,
+				E0E135B41A4E9FF2000666E7 /* Detail.m in Sources */,
+				E0E135771A4E278A000666E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E135861A4E278A000666E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E135911A4E278A000666E7 /* HeramiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0E1358C1A4E278A000666E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E135701A4E278A000666E7 /* Herami */;
+			targetProxy = E0E1358B1A4E278A000666E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0E1357E1A4E278A000666E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E1357F1A4E278A000666E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0E135831A4E278A000666E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E135841A4E278A000666E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0E135921A4E278A000666E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0E135931A4E278A000666E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E135951A4E278A000666E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tania Azizi (4CWPK4HA8N)";
+				INFOPLIST_FILE = Herami/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0fd82795-1771-4ce0-b5ca-36a755fc9a3a";
+			};
+			name = Debug;
+		};
+		E0E135961A4E278A000666E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tania Azizi (4CWPK4HA8N)";
+				INFOPLIST_FILE = Herami/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0fd82795-1771-4ce0-b5ca-36a755fc9a3a";
+			};
+			name = Release;
+		};
+		E0E135981A4E278A000666E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeramiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Herami.app/Herami";
+			};
+			name = Debug;
+		};
+		E0E135991A4E278A000666E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeramiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Herami.app/Herami";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E1356C1A4E278A000666E7 /* Build configuration list for PBXProject "Herami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E135921A4E278A000666E7 /* Debug */,
+				E0E135931A4E278A000666E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E135941A4E278A000666E7 /* Build configuration list for PBXNativeTarget "Herami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E135951A4E278A000666E7 /* Debug */,
+				E0E135961A4E278A000666E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E135971A4E278A000666E7 /* Build configuration list for PBXNativeTarget "HeramiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E135981A4E278A000666E7 /* Debug */,
+				E0E135991A4E278A000666E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E135691A4E278A000666E7 /* Project object */;
+}
