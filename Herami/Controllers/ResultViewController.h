@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Detail : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface ResultViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property float n;
 @property float A;

@@ -7,44 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E02D11E71D0D8BD700FBD6DA /* IRANSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E02D11E61D0D8BD700FBD6DA /* IRANSans.ttf */; };
 		E0E135771A4E278A000666E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E135761A4E278A000666E7 /* main.m */; };
 		E0E1357A1A4E278A000666E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E135791A4E278A000666E7 /* AppDelegate.m */; };
-		E0E1357D1A4E278A000666E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E1357C1A4E278A000666E7 /* ViewController.m */; };
+		E0E1357D1A4E278A000666E7 /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E1357C1A4E278A000666E7 /* InputViewController.m */; };
 		E0E135801A4E278A000666E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E1357E1A4E278A000666E7 /* Main.storyboard */; };
 		E0E135821A4E278A000666E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E135811A4E278A000666E7 /* Images.xcassets */; };
 		E0E135851A4E278A000666E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E135831A4E278A000666E7 /* LaunchScreen.xib */; };
-		E0E135911A4E278A000666E7 /* HeramiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E135901A4E278A000666E7 /* HeramiTests.m */; };
-		E0E135B11A4E46C5000666E7 /* B Nazanin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0E135B01A4E46C5000666E7 /* B Nazanin.ttf */; };
-		E0E135B41A4E9FF2000666E7 /* Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E135B31A4E9FF2000666E7 /* Detail.m */; };
+		E0E135B41A4E9FF2000666E7 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E135B31A4E9FF2000666E7 /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E0E1358B1A4E278A000666E7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E0E135691A4E278A000666E7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E0E135701A4E278A000666E7;
-			remoteInfo = Herami;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		E02D11E61D0D8BD700FBD6DA /* IRANSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans.ttf; sourceTree = "<group>"; };
 		E0E135711A4E278A000666E7 /* Herami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Herami.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E135751A4E278A000666E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0E135761A4E278A000666E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0E135781A4E278A000666E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0E135791A4E278A000666E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0E1357B1A4E278A000666E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E0E1357C1A4E278A000666E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0E1357B1A4E278A000666E7 /* InputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
+		E0E1357C1A4E278A000666E7 /* InputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
 		E0E1357F1A4E278A000666E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0E135811A4E278A000666E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E0E135841A4E278A000666E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E0E1358A1A4E278A000666E7 /* HeramiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeramiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0E1358F1A4E278A000666E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0E135901A4E278A000666E7 /* HeramiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeramiTests.m; sourceTree = "<group>"; };
-		E0E135B01A4E46C5000666E7 /* B Nazanin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "B Nazanin.ttf"; sourceTree = "<group>"; };
-		E0E135B21A4E9FF2000666E7 /* Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail.h; sourceTree = "<group>"; };
-		E0E135B31A4E9FF2000666E7 /* Detail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail.m; sourceTree = "<group>"; };
+		E0E135B21A4E9FF2000666E7 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		E0E135B31A4E9FF2000666E7 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,21 +41,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0E135871A4E278A000666E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E02D11E31D0D8BA000FBD6DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E0E1357B1A4E278A000666E7 /* InputViewController.h */,
+				E0E1357C1A4E278A000666E7 /* InputViewController.m */,
+				E0E135B21A4E9FF2000666E7 /* ResultViewController.h */,
+				E0E135B31A4E9FF2000666E7 /* ResultViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E02D11E41D0D8BB400FBD6DA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E02D11E51D0D8BBB00FBD6DA /* Fonts */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E02D11E51D0D8BBB00FBD6DA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E02D11E61D0D8BD700FBD6DA /* IRANSans.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		E0E135681A4E278A000666E7 = {
 			isa = PBXGroup;
 			children = (
 				E0E135731A4E278A000666E7 /* Herami */,
-				E0E1358D1A4E278A000666E7 /* HeramiTests */,
 				E0E135721A4E278A000666E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				E0E135711A4E278A000666E7 /* Herami.app */,
-				E0E1358A1A4E278A000666E7 /* HeramiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,13 +92,11 @@
 			children = (
 				E0E135781A4E278A000666E7 /* AppDelegate.h */,
 				E0E135791A4E278A000666E7 /* AppDelegate.m */,
-				E0E1357B1A4E278A000666E7 /* ViewController.h */,
-				E0E1357C1A4E278A000666E7 /* ViewController.m */,
 				E0E1357E1A4E278A000666E7 /* Main.storyboard */,
-				E0E135B21A4E9FF2000666E7 /* Detail.h */,
-				E0E135B31A4E9FF2000666E7 /* Detail.m */,
 				E0E135811A4E278A000666E7 /* Images.xcassets */,
 				E0E135831A4E278A000666E7 /* LaunchScreen.xib */,
+				E02D11E31D0D8BA000FBD6DA /* Controllers */,
+				E02D11E41D0D8BB400FBD6DA /* Components */,
 				E0E135741A4E278A000666E7 /* Supporting Files */,
 			);
 			path = Herami;
@@ -104,25 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				E0E135751A4E278A000666E7 /* Info.plist */,
-				E0E135B01A4E46C5000666E7 /* B Nazanin.ttf */,
 				E0E135761A4E278A000666E7 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E0E1358D1A4E278A000666E7 /* HeramiTests */ = {
-			isa = PBXGroup;
-			children = (
-				E0E135901A4E278A000666E7 /* HeramiTests.m */,
-				E0E1358E1A4E278A000666E7 /* Supporting Files */,
-			);
-			path = HeramiTests;
-			sourceTree = "<group>";
-		};
-		E0E1358E1A4E278A000666E7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E0E1358F1A4E278A000666E7 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,24 +131,6 @@
 			productReference = E0E135711A4E278A000666E7 /* Herami.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E0E135891A4E278A000666E7 /* HeramiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E0E135971A4E278A000666E7 /* Build configuration list for PBXNativeTarget "HeramiTests" */;
-			buildPhases = (
-				E0E135861A4E278A000666E7 /* Sources */,
-				E0E135871A4E278A000666E7 /* Frameworks */,
-				E0E135881A4E278A000666E7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E0E1358C1A4E278A000666E7 /* PBXTargetDependency */,
-			);
-			name = HeramiTests;
-			productName = HeramiTests;
-			productReference = E0E1358A1A4E278A000666E7 /* HeramiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,10 +142,6 @@
 				TargetAttributes = {
 					E0E135701A4E278A000666E7 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					E0E135891A4E278A000666E7 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = E0E135701A4E278A000666E7;
 					};
 				};
 			};
@@ -197,7 +159,6 @@
 			projectRoot = "";
 			targets = (
 				E0E135701A4E278A000666E7 /* Herami */,
-				E0E135891A4E278A000666E7 /* HeramiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -209,15 +170,8 @@
 			files = (
 				E0E135801A4E278A000666E7 /* Main.storyboard in Resources */,
 				E0E135851A4E278A000666E7 /* LaunchScreen.xib in Resources */,
-				E0E135B11A4E46C5000666E7 /* B Nazanin.ttf in Resources */,
 				E0E135821A4E278A000666E7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0E135881A4E278A000666E7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E02D11E71D0D8BD700FBD6DA /* IRANSans.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,30 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E1357D1A4E278A000666E7 /* ViewController.m in Sources */,
+				E0E1357D1A4E278A000666E7 /* InputViewController.m in Sources */,
 				E0E1357A1A4E278A000666E7 /* AppDelegate.m in Sources */,
-				E0E135B41A4E9FF2000666E7 /* Detail.m in Sources */,
+				E0E135B41A4E9FF2000666E7 /* ResultViewController.m in Sources */,
 				E0E135771A4E278A000666E7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0E135861A4E278A000666E7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0E135911A4E278A000666E7 /* HeramiTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E0E1358C1A4E278A000666E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E0E135701A4E278A000666E7 /* Herami */;
-			targetProxy = E0E1358B1A4E278A000666E7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E0E1357E1A4E278A000666E7 /* Main.storyboard */ = {
@@ -373,40 +311,6 @@
 			};
 			name = Release;
 		};
-		E0E135981A4E278A000666E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HeramiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Herami.app/Herami";
-			};
-			name = Debug;
-		};
-		E0E135991A4E278A000666E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HeramiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Herami.app/Herami";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,15 +328,6 @@
 			buildConfigurations = (
 				E0E135951A4E278A000666E7 /* Debug */,
 				E0E135961A4E278A000666E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0E135971A4E278A000666E7 /* Build configuration list for PBXNativeTarget "HeramiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E0E135981A4E278A000666E7 /* Debug */,
-				E0E135991A4E278A000666E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

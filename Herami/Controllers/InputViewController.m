@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Ahmad. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "Detail.h"
+#import "InputViewController.h"
+#import "ResultViewController.h"
 
-@interface ViewController ()
+@interface InputViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *first;
 @property (weak, nonatomic) IBOutlet UITextField *remain;
@@ -22,7 +22,7 @@
 
 @end
 
-@implementation ViewController
+@implementation InputViewController
 
 - (IBAction)segment:(id)sender {
     if (self.segment.selectedSegmentIndex == 1) {
@@ -56,28 +56,37 @@
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    Detail *data = [segue destinationViewController];
-    data.n = self.till.text.floatValue;
-    data.A = self.first.text.floatValue;
-    data.B = self.remain.text.floatValue;
-    data.C = self.add.text.floatValue;
-    data.P = self.till.text.floatValue;
-    data.index = (int)self.segment.selectedSegmentIndex;
+    
+    ResultViewController *resultVC = [segue destinationViewController];
+    resultVC.n = self.till.text.floatValue;
+    resultVC.A = self.first.text.floatValue;
+    resultVC.B = self.remain.text.floatValue;
+    resultVC.C = self.add.text.floatValue;
+    resultVC.P = self.till.text.floatValue;
+    resultVC.index = (int)self.segment.selectedSegmentIndex;
+    
 }
 
 -(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    
     BOOL shoudOrNot = YES;
-    if ([self.first.text isEqualToString:@""] || [self.add.text isEqualToString:@""] || [self.till.text isEqualToString:@""] || [self.remain.text isEqualToString:@""]) {
+    
+    if ([self.first.text isEqualToString:@""] ||
+        [self.add.text isEqualToString:@""] ||
+        [self.till.text isEqualToString:@""] ||
+        [self.remain.text isEqualToString:@""]) {
+        
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"با اطلاعات ناقص؟" delegate:nil cancelButtonTitle:@"تکمیل اطلاعات" otherButtonTitles:nil, nil];
         [alert show];
         shoudOrNot = NO;
+        
+    } else {
+        
+        [self.view endEditing:YES];
+        
     }
+    
     return shoudOrNot;
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

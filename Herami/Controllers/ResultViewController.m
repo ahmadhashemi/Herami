@@ -6,16 +6,16 @@
 //  Copyright (c) 2014 Ahmad. All rights reserved.
 //
 
-#import "Detail.h"
+#import "ResultViewController.h"
 
-@interface Detail ()
+@interface ResultViewController ()
 
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segment;
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
 
 @end
 
-@implementation Detail {
+@implementation ResultViewController {
     NSInteger nonProfitMonthes;
     NSInteger rows;
 }
